@@ -15,11 +15,9 @@ export default class Main extends Component {
 
     return (
       <div className="App">
-        <button onClick={this.changeShow}>click me</button>
-        { show && <text className="Texting"> this is a test for docker </text>}
+        <button onClick={this.changeShow}>click me now</button>
+        { show && <text className="Texting"> this is a test for docker lable</text>}
       </div>
     )
   }
-
-
 }
